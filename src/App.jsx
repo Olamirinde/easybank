@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="p-8 drop-shadow-md">
+    <div>
       <Header />
       <Hero />
       <CTA />

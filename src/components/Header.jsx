@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center h-10 p-10 w-auto mx-auto px-4 bg-white">
+    <div className="flex justify-between items-center h-10 p-10 w-auto mx-auto px-4 pl-24">
       <img src={logo} alt="logo-image" />
       <nav className="text-gray-800 font-medium">
         <a className="p-4" href="/">
@@ -22,7 +22,7 @@ const Header = () => {
           Careers
         </a>
       </nav>
-      <button className="text-white bg-gradient-to-r from-Lime_Green to-Bright_Cyan text-White px-8 py-3 rounded-full">
+      <button className="text-white bg-gradient-to-r from-Lime_Green to-Bright_Cyan text-White px-8 py-2 rounded-full mr-24">
         Request Invite
       </button>
     </div>

@@ -4,7 +4,7 @@ import mockups from "../assets/mockups.png";
 const Hero = () => {
   return (
     <div>
-      <div className="w-full flex">
+      <div className="flex">
         <div className="w-[50%] flex flex-col p-5 justify-center">
           <h1 className="text-7xl text-Dark_Blue mb-5 justify-center px-auto">
             Next generation <br />
@@ -15,7 +15,7 @@ const Hero = () => {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <button className="text-white bg-gradient-to-r from-Lime_Green to-Bright_Cyan text-White px-8 py-3 w-[30%] mt-14 rounded-full inline">
+          <button className="text-white bg-gradient-to-r from-Lime_Green to-Bright_Cyan text-White px-8 py-2 w-[30%] mt-14 rounded-full inline">
             Request Invite
           </button>
         </div>
